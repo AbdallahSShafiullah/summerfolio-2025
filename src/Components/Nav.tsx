@@ -25,8 +25,10 @@ import styled from 'styled-components';
           text-decoration: none;
           color:white;
           &:hover{
+              transition: color 0.4s ease;
               
-              color:grey;
+              color:rebeccapurple;
+              
           }
           
       }
